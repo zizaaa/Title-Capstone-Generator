@@ -114,7 +114,6 @@ generateBtn.addEventListener('click', (e) => {
             { "author": "ziza", "quote": "Boarding House Management System" },
             { "author": "ziza", "quote": "COOP Management System" },
             { "author": "ziza", "quote": "Insurance Management System" },
-
             { "author": "ziza", "quote": "Beauty Parlor Management System" },
             { "author": "ziza", "quote": "Daily Time Record and Payroll System with Barcode/Biometric" },
             { "author": "ziza", "quote": "Budget Management System" },
@@ -235,107 +234,258 @@ generateBtn.addEventListener('click', (e) => {
             { "author": "ziza", "quote": "Cedula Mobile: Cedula and Certification Request Mobile Application" },
             { "author": "ziza", "quote": "Health Center Information Management System" },
             { "author": "ziza", "quote": "Apps for Monitoring Temperature" },
+            { "author": "ziza", "quote": "What are Data Breaches and How to Prevent Them" },
+            { "author": "ziza", "quote": "Improving Data Security" },
+            { "author": "ziza", "quote": "Benefits of Car Transportation Systems" },
+            { "author": "ziza", "quote": "Ecommerce Pricing Control Systems" },
+            { "author": "ziza", "quote": "Mobile Event Planners" },
+            { "author": "ziza", "quote": "Alarm SMS Notification Systems" },
+            { "author": "ziza", "quote": "Project Management Systems" },
+            { "author": "ziza", "quote": "Machine Learning and Big Data" },
+            { "author": "ziza", "quote": "University Networks" },
+            { "author": "ziza", "quote": "ARPANET: How The Internet Started" },
+            { "author": "ziza", "quote": "ARPANET: How The Internet Started" },
+            { "author": "ziza", "quote": "Latest Ecommerce Technologies" },
+            { "author": "ziza", "quote": "Cre Principles of Cybersecurity" },
+            { "author": "ziza", "quote": "Cre Principles of Cybersecurity" },
+            { "author": "ziza", "quote": "Information Technology in the 21st century" },
+            { "author": "ziza", "quote": "Java Programming: The Basics" },
+            { "author": "ziza", "quote": "Software Testing 101" },
+            { "author": "ziza", "quote": "Introduction to Software Quality Assurance" },
+            { "author": "ziza", "quote": "Employee Productivity Apps" },
+            { "author": "ziza", "quote": "Onboarding Systems and HR" },
+            { "author": "ziza", "quote": "Cloud-Based Software vs. On-Site Solutions" },
+            { "author": "ziza", "quote": "Benefits of Cloud Solutions" },
+            { "author": "ziza", "quote": "Hotel PMS Systems" },
+            { "author": "ziza", "quote": "Smart Technology in the Hotel Industry" },
+            { "author": "ziza", "quote": "IoT and Data" },
+            { "author": "ziza", "quote": "New IoT Gadgets" },
+            { "author": "ziza", "quote": "What is Artificial Intelligence" },
+            { "author": "ziza", "quote": "What is Machine Learning" },
+            { "author": "ziza", "quote": "What is Machine Learning" },
+            { "author": "ziza", "quote": "Robotics Systems" },
+            { "author": "ziza", "quote": "Neural Networks" },
+            { "author": "ziza", "quote": "How Has Technology Changed Our Lives" },
+            { "author": "ziza", "quote": "Censorship on the Internet" },
+            { "author": "ziza", "quote": "Should the Internet be Free?" },
+            { "author": "ziza", "quote": "Web Scrapers" },
+            { "author": "ziza", "quote": "How Machine Learning Learns" },
+            { "author": "ziza", "quote": "How is AI Affecting us Today" },
+            { "author": "ziza", "quote": "New Tech Innovations for the Near Future" },
+            { "author": "ziza", "quote": "How is AI Affecting us Today" },
+            { "author": "ziza", "quote": "How are Clouds Technologies Used for Data Storage" },
+            { "author": "ziza", "quote": "Mobile Apps That Improve Education" },
+            { "author": "ziza", "quote": "How The Internet Will Develop" },
+            { "author": "ziza", "quote": "Software as a Service" },
+            { "author": "ziza", "quote": "Platform as a Service" },
+            { "author": "ziza", "quote": "Infrastructure as a Service" },
+            { "author": "ziza", "quote": "SaaS, PaaS, & IaaS: Main Differences" },
+            { "author": "ziza", "quote": "How Google Ranks Websites" },
+            { "author": "ziza", "quote": "3D Visualization in Architecture" },
+            { "author": "ziza", "quote": "Essential Skills 3D Artists Need" },
+            { "author": "ziza", "quote": "3D Rendering Tools" },
+            { "author": "ziza", "quote": "DMaaS - Data Mining as a Service" },
+            { "author": "ziza", "quote": "Augmented Reality" },
+            { "author": "ziza", "quote": "VR vs. AR: Differences Explained" },
+            { "author": "ziza", "quote": "Automation Systems in the 21st century" },
+            { "author": "ziza", "quote": "Data Management for Big Companies" },
+            { "author": "ziza", "quote": "Essential Data Analyst Skills" },
+            { "author": "ziza", "quote": "AI and Gamification" },
+            { "author": "ziza", "quote": "Data Mining for Employee Evaluation" },
+            { "author": "ziza", "quote": "Data Mining in Healthcare" },
+            { "author": "ziza", "quote": "Machine Learning for OTAs" },
+            { "author": "ziza", "quote": "Facebook and Data" },
+            { "author": "ziza", "quote": "Censorship on Social Media" },
+            { "author": "ziza", "quote": "How Social Media Filters out Content" },
+            { "author": "ziza", "quote": "Fingerprint Authentication" },
+            { "author": "ziza", "quote": "IoT Sensors" },
+            { "author": "ziza", "quote": "Web Ordering Systems" },
+            { "author": "ziza", "quote": "How to Prevent Phishing Attacks" },
+            { "author": "ziza", "quote": "Using Web Scraping for Research" },
+            { "author": "ziza", "quote": "Virtual Private Networks" },
+            { "author": "ziza", "quote": "Web Proxies" },
+            { "author": "ziza", "quote": "Differences Between VPNs and Proxies" },
+            { "author": "ziza", "quote": "How Proxies Enhances Web Scraping" },
+            { "author": "ziza", "quote": "Home Automation Systems" },
+            { "author": "ziza", "quote": "Smart Homes" },
+            { "author": "ziza", "quote": "Warehouse Management Systems" },
+            { "author": "ziza", "quote": "How Voice Recognition Systems Work" },
+            { "author": "ziza", "quote": "QR Code Check-ins" },
+            { "author": "ziza", "quote": "Smart Systems in Cars" },
+            { "author": "ziza", "quote": "Should Cars Have More Computers or Less?" },
+            { "author": "ziza", "quote": "Solar Grass Cutters With Automation" },
+            { "author": "ziza", "quote": "Voice Controlled Tools" },
+            { "author": "ziza", "quote": "CRM Software" },
+            { "author": "ziza", "quote": "Online Training Software Benefits" },
+            { "author": "ziza", "quote": "ChatBots: Introduction" },
+            { "author": "ziza", "quote": "Complex Chat Bots" },
+            { "author": "ziza", "quote": "Using ML for Cybersecurity" },
+            { "author": "ziza", "quote": "Machine LEarning in Ecommerce" },
+            { "author": "ziza", "quote": "How Games Have Improved Digital Technologies" },
+            { "author": "ziza", "quote": "Elearning and Gamification" },
+            { "author": "ziza", "quote": "How Far Have Video Games Gone?" },
+            { "author": "ziza", "quote": "Home Voice Assistants" },
+            { "author": "ziza", "quote": "How Technology Helps Disabled People" },
+            { "author": "ziza", "quote": " Apps for Child Monitoring" },
+            { "author": "ziza", "quote": " Nutrition Tools" },
+            { "author": "ziza", "quote": " Semantic Web & Big Data" },
+            { "author": "ziza", "quote": "Autonomous Systems Today" },
+            { "author": "ziza", "quote": "Is The Internet Helping us?" },
+            { "author": "ziza", "quote": "Blockchain and Crypto" },
+            { "author": "ziza", "quote": "How Bitcoin Works" },
+            { "author": "ziza", "quote": "IoT and 5G" },
+            { "author": "ziza", "quote": "Edge Computing Explained" },
 
-            // What are Data Breaches and How to Prevent Them
-            // Improving Data Security
-            // Benefits of Car Transportation Systems
-            // Ecommerce Pricing Control Systems
-            // Mobile Event Planners
-            // Alarm SMS Notification Systems
-            // Mobile Learning: How it Works
-            // Project Management Systems
-            // Machine Learning and Big Data
-            // University Networks
-            // ARPANET: How The Internet Started
-            // Latest Ecommerce Technologies
-            // Cre Principles of Cybersecurity
-            // Information Technology in the 21st century
-            // Java Programming: The Basics
-            // Software Testing 101
-            // Introduction to Software Quality Assurance
-            // Employee Productivity Apps
-            // Onboarding Systems and HR
-            // Cloud-Based Software vs. On-Site Solutions
-            // Benefits of Cloud Solutions
-            // Hotel PMS Systems
-            // Smart Technology in the Hotel Industry
-            // IoT and Data
-            // New IoT Gadgets
-            // What is Artificial Intelligence
-            // What is Machine Learning
-            // Robotics Systems
-            // Neural Networks
-            // How Has Technology Changed Our Lives
-            // Censorship on the Internet
-            // Should the Internet be Free?
-            // Email Marketing Tools
-            // Web Scrapers
-            // How Machine Learning Learns
-            // How is AI Affecting us Today
-            // New Tech Innovations for the Near Future
-            // What is Virtual Reality
-            // How are Clouds Technologies Used for Data Storage
-            // Mobile Apps That Improve Education
-            // How The Internet Will Develop
-            // Software as a Service
-            // Platform as a Service
-            // Infrastructure as a Service
-            // SaaS, PaaS, & IaaS: Main Differences
-            // How Google Ranks Websites
-            // 3D Visualization in Architecture
-            // Essential Skills 3D Artists Need
-            // 3D Rendering Tools
-            // DMaaS - Data Mining as a Service
-            // Augmented Reality
-            // VR vs. AR: Differences Explained
-            // Automation Systems in the 21st century
-            // Data Management for Big Companies
-            // Essential Data Analyst Skills
-            // AI and Gamification
-            // Data Mining for Employee Evaluation
-            // Data Mining in Healthcare
-            // Machine Learning for OTAs
-            // Facebook and Data
-            // Censorship on Social Media
-            // How Social Media Filters out Content
-            // Fingerprint Authentication
-            // IoT Sensors
-            // Web Ordering Systems
-            // How to Prevent Phishing Attacks
-            // Using Web Scraping for Research
-            // Web Proxies
-            // Virtual Private Networks
-            // Differences Between VPNs and Proxies
-            // How Proxies Enhances Web Scraping
-            // Home Automation Systems
-            // Smart Homes
-            // Warehouse Management Systems
-            // How Voice Recognition Systems Work
-            // QR Code Check-ins
-            // Smart Systems in Cars
-            // Should Cars Have More Computers or Less?
-            // Solar Grass Cutters With Automation
-            // Voice Controlled Tools
-            // CRM Software
-            // Online Training Software Benefits
-            // ChatBots: Introduction
-            // Complex Chat Bots
-            // Using ML for Cybersecurity
-            // Machine LEarning in Ecommerce
-            // Elearning and Gamification
-            // How Games Have Improved Digital Technologies
-            // How Far Have Video Games Gone?
-            // Home Voice Assistants
-            // How Technology Helps Disabled People
-            // Apps for Child Monitoring
-            // Nutrition Tools
-            // Semantic Web & Big Data
-            // Autonomous Systems Today
-            // Is The Internet Helping us?
-            // Blockchain and Crypto
-            // How Bitcoin Works
-            // IoT and 5G
-            // Edge Computing Explained
+            //  A New Hybrid Technique For Data Encryption
+            //  Active Chat Monitoring and Suspicious Chat Detection over Internet
+            //  Advanced Intelligent Tourist Guide
+            //  Advanced Mobile Store
+            // 	Advanced Reliable Real Estate Portal
+            // 	Advanced Tour Guide
+            // 	Advertising within a social network
+            // 	Aggregation of Route and Service Data from Local Transit Systems to a Statewide Model
+            // 	AI Desktop Partner
+            // 	AI Multi Agent Shopping System
+            // 	Air Tester Quality App Using Android
+            // 	Airline Reservation System Using IOS And Android
+            // 	Airport Network Flight Scheduler
+            // 	Android – PC Chatting & Image Sharing System
+            // 	Android AI Diet Consultant
+            // 	Android Anti-Virus Application
+            // 	Android App With Web-Based File Manage
+            // 	Android Attendance System
+            // 	Android Based Electronic Board
+            // 	Android Based Encrypted SMS System
+            // 	Android Based Furniture Shopping
+            // 	Android Based Parking Booking System
+            // 	Android Based Visual Product Identification For The Blind
+            //	Android Battery Saver System
+            // 	Android Blood Bank
+            //	Android Bluetooth Chat
+            // 	Android Campus Portal With Graphical Reporting
+            // 	Android Customer Relationship Management System
+            // 	Android Employee Tracker
+            // 	Android File finder and Sorting
+            // 	Android Joystick Application
+            // 	Android Local Train Ticketing Project
+            // 	Android location alarm
+            // 	Android location alarm
+            // 	Android Merchant Application Using Qr
+            // 	Android Offloading Computation Over Cloud
+            // 	Android Patient Tracker
+            // 	Android Smart City Traveler
+            // 	Android Smart Ticketing Using Rfid
+            // 	Android Task Monitoring
+            // 	Android Tourist Guide Project
+            // 	Android Vehicle Tracking Application
+            // 	Android Voting System
+            // 	Artificial Intelligence Dietician
+            // 	ATM Detail Security Using Image Steganography
+            // 	Attack Source Tracing Project
+            // 	Automated Attendance System
+            // 	Automated Canteen Ordering System using Android
+            // 	Automated College Timetable Generator
+            // 	Automated Payroll With GPS Tracking And Image Capture
+            // 	Automatic Answer Checker
+            // 	Banking Bot Project
+            // 	Basic things about network
+            // 	Bikers Portal
+            // 	Biomedical Data Mining For Web Page Relevance Checking
+            // 	Brain Tumor Detection Using Image Segmentation
+            // 	Bus Pass Android Project
+            // 	Bus Pass with Barcode Card scan
+            // 	Bus Pass with webcam Scan
+            // 	Camera Motion Sensing Project
+            // 	Cancer Prediction Using Data Mining
+            // 	Canteen Automation System
+            // 	Car Sales And Inventory Store Project
+            // 	Car transportation system benefits
+            // 	Card Payment Security Using RSA
+            // 	Cargo Booking Software
+            //	Cedula Mobile App For Issuance Of Cedula
+            //	Class Management System Project
+            // 	Cloud Based Bus Pass System
+            // 	Cloud Based Career Guidance System
+            // 	Cloud Based Local Train Ticketing System
+            // 	Cloud Based Online Blood Bank System
+            // 	Cloud computing for Rural banking
+            //	Cloud-Based Accounting App For Business Minded People
+            // 	Coin Loading Machine
+            // 	Collective Face Detection Project
+            // 	College automation project
+            // 	College Enquiry Chat Bot
+            // 	College Forums with Alumni Based on Content Filtering
+            // 	College Social Networking Web Project
+            // 	Complex clinical data merging, management, and presentation
+            // 	Computer Vision Information Systems for wireless surveillance
+            // 	Converting The Sign Language Into Text With The Use Of Microsoft Kinect Sensor
+            // 	Cooking Recipe Rating Based On Sentiment Analysis
+            // 	Cooperative Housing Society Manager Project
+            // 	Corporate Dashboard Project
+            // 	Credit Card Fraud Detection
+            // 	Crime Rate Prediction Using K Means
+            // 	Criminal Investigation Tracker with Suspect Prediction
+            // 	Cursor Movement By Hand Gesture Project
+            // 	Cursor Movement On Object Motion
+            // 	Custom Web Search With User Centric Map
+            // 	Customer Behaviour Prediction Using Web Usage Mining
+            // 	Data breach – how to prevent it
+            // 	Data Duplication Removal Using File Checksum
+            // 	Data mining benefits
+            // 	Data Mining For Automated Personality Classification
+            // 	Data mining pros and cons;
+            // 	Data mining: the latest
+            // 	Data Protection Using Hand Gesture Recognition
+            // 	Data security – ways to strengthen it
+            // 	Data Standardization Using Hidden Markov Model
+            // 	Data warehousing – what you need to know
+            // 	Defect recognition system for quality control
+            // 	Dental Caries Detection System
+            // 	Detect Irregular moving objects and tracking based on color and shape in real-time
+            // 	Detecting Data Leaks
+            // 	Detecting E Banking Phishing Websites Using Associative Classification
+            // 	Detecting Edges Using Image Processor
+            //  Detecting Fraud Apps Using Sentiment Analysis
+            // 	Detecting Phishing Websites Using Machine Learning
+            // 	Diabetic Retinopathy Detection From Retinal Images
+            //  Diagnostic Centre Client Coordination System
+            //  Differences of network administration in various institutions;
+            // 	Digital Notice Board To Be Displayed On The PC Monitor
+            // 	Digital Watermarking Project
+            // 	Distributed Dealership Network Analyzer and Sales Monitor
+            // 	Document checker and Corrector Project
+            // 	Document Sentiment Analysis Using Opinion Mining
+            // 	Doorbell Notification Application Having SMS Support Using Android
+            // 	Download accelerator
+            // 	Driver Card With Qr Code Identification
+            //	E Authentication System Using QR Code & OTP
+            // 	E Banking Log System
+            // 	E Commerce Product Rating Based On Customer Review Mining
+            // 	E Governance project
+            // 	E Healthcare – Online Consultation And Medical Subscription
+            // 	Ecommerce Storefront Application
+            // 	E-commerce technologies and the use of different content management systems
+            // 	E-commerce technologies tools;
+            // 	Editor system for notepad
+            // 	Education Assignment Dashboard
+            // 	Efficient Doctor Patient Portal
+            // 	E-Learning Platform using Cloud Computing
+            // 	E-learning system for company processes
+            // 	E-Logistics For Warehouse Management
+            // 	Employee attendance System By Qr Scan
+            // 	Employee Hourly Attendance By Barcode Scan
+            // 	Encryption & Decryption Using Deffie Hellman Algorithm
+            // 	Engineering College Automation and Scheduling System
+            // 	Enhanced Kmeans algorithm
+            // 	Enhanced Library Management System
+            // 	ERP System For Institutes
+            // 	Evaluation of Academic Performance of Students with Fuzzy Logic
+            //	Event Calendar App For Mobile Use
+            // 	Exam Cell Automation System
+            // 	Expression Identification Using Image Processing
+            // 	Face Recognition Attendance System
+            // 	Facial Expression Recognition
+            // 	Fake Product Review Monitoring And Removal For Genuine Online Product Reviews Using Opinion Mining
         ];
 
 
