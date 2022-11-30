@@ -49,19 +49,20 @@ generateBtn.addEventListener('click', (e) => {
     const addAnimate = () => {
         const icon = document.querySelector('.fa-rotate');
         icon.classList.add('animate');
-        // icon.style.transform = 'rotate(300deg)';
 
         console.log('hello');
     };
-
+    // stop the rotation transition and call the randompick function
     const removeAnimate = () => {
         clearInterval(timer);
         const icon = document.querySelector('.fa-rotate');
         icon.classList.remove('animate');
 
+        // call random pick
         randompick();
     };
 
+    // timer
     let timer = setInterval(addAnimate, 200);
     setTimeout(removeAnimate, 3000);
 
@@ -335,157 +336,157 @@ generateBtn.addEventListener('click', (e) => {
             { "author": "ziza", "quote": "How Bitcoin Works" },
             { "author": "ziza", "quote": "IoT and 5G" },
             { "author": "ziza", "quote": "Edge Computing Explained" },
-
-            //  A New Hybrid Technique For Data Encryption
-            //  Active Chat Monitoring and Suspicious Chat Detection over Internet
-            //  Advanced Intelligent Tourist Guide
-            //  Advanced Mobile Store
-            // 	Advanced Reliable Real Estate Portal
-            // 	Advanced Tour Guide
-            // 	Advertising within a social network
-            // 	Aggregation of Route and Service Data from Local Transit Systems to a Statewide Model
-            // 	AI Desktop Partner
-            // 	AI Multi Agent Shopping System
-            // 	Air Tester Quality App Using Android
-            // 	Airline Reservation System Using IOS And Android
-            // 	Airport Network Flight Scheduler
-            // 	Android – PC Chatting & Image Sharing System
-            // 	Android AI Diet Consultant
-            // 	Android Anti-Virus Application
-            // 	Android App With Web-Based File Manage
-            // 	Android Attendance System
-            // 	Android Based Electronic Board
-            // 	Android Based Encrypted SMS System
-            // 	Android Based Furniture Shopping
-            // 	Android Based Parking Booking System
-            // 	Android Based Visual Product Identification For The Blind
-            //	Android Battery Saver System
-            // 	Android Blood Bank
-            //	Android Bluetooth Chat
-            // 	Android Campus Portal With Graphical Reporting
-            // 	Android Customer Relationship Management System
-            // 	Android Employee Tracker
-            // 	Android File finder and Sorting
-            // 	Android Joystick Application
-            // 	Android Local Train Ticketing Project
-            // 	Android location alarm
-            // 	Android location alarm
-            // 	Android Merchant Application Using Qr
-            // 	Android Offloading Computation Over Cloud
-            // 	Android Patient Tracker
-            // 	Android Smart City Traveler
-            // 	Android Smart Ticketing Using Rfid
-            // 	Android Task Monitoring
-            // 	Android Tourist Guide Project
-            // 	Android Vehicle Tracking Application
-            // 	Android Voting System
-            // 	Artificial Intelligence Dietician
-            // 	ATM Detail Security Using Image Steganography
-            // 	Attack Source Tracing Project
-            // 	Automated Attendance System
-            // 	Automated Canteen Ordering System using Android
-            // 	Automated College Timetable Generator
-            // 	Automated Payroll With GPS Tracking And Image Capture
-            // 	Automatic Answer Checker
-            // 	Banking Bot Project
-            // 	Basic things about network
-            // 	Bikers Portal
-            // 	Biomedical Data Mining For Web Page Relevance Checking
-            // 	Brain Tumor Detection Using Image Segmentation
-            // 	Bus Pass Android Project
-            // 	Bus Pass with Barcode Card scan
-            // 	Bus Pass with webcam Scan
-            // 	Camera Motion Sensing Project
-            // 	Cancer Prediction Using Data Mining
-            // 	Canteen Automation System
-            // 	Car Sales And Inventory Store Project
-            // 	Car transportation system benefits
-            // 	Card Payment Security Using RSA
-            // 	Cargo Booking Software
-            //	Cedula Mobile App For Issuance Of Cedula
-            //	Class Management System Project
-            // 	Cloud Based Bus Pass System
-            // 	Cloud Based Career Guidance System
-            // 	Cloud Based Local Train Ticketing System
-            // 	Cloud Based Online Blood Bank System
-            // 	Cloud computing for Rural banking
-            //	Cloud-Based Accounting App For Business Minded People
-            // 	Coin Loading Machine
-            // 	Collective Face Detection Project
-            // 	College automation project
-            // 	College Enquiry Chat Bot
-            // 	College Forums with Alumni Based on Content Filtering
-            // 	College Social Networking Web Project
-            // 	Complex clinical data merging, management, and presentation
-            // 	Computer Vision Information Systems for wireless surveillance
-            // 	Converting The Sign Language Into Text With The Use Of Microsoft Kinect Sensor
-            // 	Cooking Recipe Rating Based On Sentiment Analysis
-            // 	Cooperative Housing Society Manager Project
-            // 	Corporate Dashboard Project
-            // 	Credit Card Fraud Detection
-            // 	Crime Rate Prediction Using K Means
-            // 	Criminal Investigation Tracker with Suspect Prediction
-            // 	Cursor Movement By Hand Gesture Project
-            // 	Cursor Movement On Object Motion
-            // 	Custom Web Search With User Centric Map
-            // 	Customer Behaviour Prediction Using Web Usage Mining
-            // 	Data breach – how to prevent it
-            // 	Data Duplication Removal Using File Checksum
-            // 	Data mining benefits
-            // 	Data Mining For Automated Personality Classification
-            // 	Data mining pros and cons;
-            // 	Data mining: the latest
-            // 	Data Protection Using Hand Gesture Recognition
-            // 	Data security – ways to strengthen it
-            // 	Data Standardization Using Hidden Markov Model
-            // 	Data warehousing – what you need to know
-            // 	Defect recognition system for quality control
-            // 	Dental Caries Detection System
-            // 	Detect Irregular moving objects and tracking based on color and shape in real-time
-            // 	Detecting Data Leaks
-            // 	Detecting E Banking Phishing Websites Using Associative Classification
-            // 	Detecting Edges Using Image Processor
-            //  Detecting Fraud Apps Using Sentiment Analysis
-            // 	Detecting Phishing Websites Using Machine Learning
-            // 	Diabetic Retinopathy Detection From Retinal Images
-            //  Diagnostic Centre Client Coordination System
-            //  Differences of network administration in various institutions;
-            // 	Digital Notice Board To Be Displayed On The PC Monitor
-            // 	Digital Watermarking Project
-            // 	Distributed Dealership Network Analyzer and Sales Monitor
-            // 	Document checker and Corrector Project
-            // 	Document Sentiment Analysis Using Opinion Mining
-            // 	Doorbell Notification Application Having SMS Support Using Android
-            // 	Download accelerator
-            // 	Driver Card With Qr Code Identification
-            //	E Authentication System Using QR Code & OTP
-            // 	E Banking Log System
-            // 	E Commerce Product Rating Based On Customer Review Mining
-            // 	E Governance project
-            // 	E Healthcare – Online Consultation And Medical Subscription
-            // 	Ecommerce Storefront Application
-            // 	E-commerce technologies and the use of different content management systems
-            // 	E-commerce technologies tools;
-            // 	Editor system for notepad
-            // 	Education Assignment Dashboard
-            // 	Efficient Doctor Patient Portal
-            // 	E-Learning Platform using Cloud Computing
-            // 	E-learning system for company processes
-            // 	E-Logistics For Warehouse Management
-            // 	Employee attendance System By Qr Scan
-            // 	Employee Hourly Attendance By Barcode Scan
-            // 	Encryption & Decryption Using Deffie Hellman Algorithm
-            // 	Engineering College Automation and Scheduling System
-            // 	Enhanced Kmeans algorithm
-            // 	Enhanced Library Management System
-            // 	ERP System For Institutes
-            // 	Evaluation of Academic Performance of Students with Fuzzy Logic
-            //	Event Calendar App For Mobile Use
-            // 	Exam Cell Automation System
-            // 	Expression Identification Using Image Processing
-            // 	Face Recognition Attendance System
-            // 	Facial Expression Recognition
-            // 	Fake Product Review Monitoring And Removal For Genuine Online Product Reviews Using Opinion Mining
+            { quote: 'Hello', author: 'ziza' },
+            { quote: 'A New Hybrid Technique For Data Encryption', author: 'ziza' },
+            { quote: 'Active Chat Monitoring and Suspicious Chat Detection over Internet', author: 'ziza' },
+            { quote: 'Advanced Intelligent Tourist Guide', author: 'ziza' },
+            { quote: 'Advanced Mobile Store', author: 'ziza' },
+            { quote: 'Advanced Reliable Real Estate Portal', author: 'ziza' },
+            { quote: 'Advanced Tour Guide', author: 'ziza' },
+            { quote: 'Advertising within a social network', author: 'ziza' },
+            { quote: 'Aggregation of Route and Service Data from Local Transit Systems to a Statewide Model', author: 'ziza' },
+            { quote: 'AI Desktop Partner', author: 'ziza' },
+            { quote: 'AI Multi Agent Shopping System', author: 'ziza' },
+            { quote: 'Air Tester Quality App Using Android', author: 'ziza' },
+            { quote: 'Airline Reservation System Using IOS And Android', author: 'ziza' },
+            { quote: 'Airport Network Flight Scheduler', author: 'ziza' },
+            { quote: 'Android – PC Chatting & Image Sharing System', author: 'ziza' },
+            { quote: 'Android AI Diet Consultant', author: 'ziza' },
+            { quote: 'Android Anti-Virus Application', author: 'ziza' },
+            { quote: 'Android App With Web-Based File Manage', author: 'ziza' },
+            { quote: 'Android Attendance System', author: 'ziza' },
+            { quote: 'Android Based Electronic Board', author: 'ziza' },
+            { quote: 'Android Based Encrypted SMS System', author: 'ziza' },
+            { quote: 'Android Based Furniture Shopping', author: 'ziza' },
+            { quote: 'Android Based Parking Booking System', author: 'ziza' },
+            { quote: 'Android Based Visual Product Identification For The Blind', author: 'ziza' },
+            { quote: 'Android Battery Saver System', author: 'ziza' },
+            { quote: 'Android Blood Bank', author: 'ziza' },
+            { quote: 'Android Bluetooth Chat', author: 'ziza' },
+            { quote: 'Android Campus Portal With Graphical Reporting', author: 'ziza' },
+            { quote: 'Android Customer Relationship Management System', author: 'ziza' },
+            { quote: 'Android Employee Tracker', author: 'ziza' },
+            { quote: 'Android File finder and Sorting', author: 'ziza' },
+            { quote: 'Android Joystick Application', author: 'ziza' },
+            { quote: 'Android Local Train Ticketing Project', author: 'ziza' },
+            { quote: 'Android location alarm', author: 'ziza' },
+            { quote: 'Android location alarm', author: 'ziza' },
+            { quote: 'Android Merchant Application Using Qr', author: 'ziza' },
+            { quote: 'Android Offloading Computation Over Cloud', author: 'ziza' },
+            { quote: 'Android Patient Tracker', author: 'ziza' },
+            { quote: 'Android Smart City Traveler', author: 'ziza' },
+            { quote: 'Android Smart Ticketing Using Rfid', author: 'ziza' },
+            { quote: 'Android Task Monitoring', author: 'ziza' },
+            { quote: 'Android Tourist Guide Project', author: 'ziza' },
+            { quote: 'Android Vehicle Tracking Application', author: 'ziza' },
+            { quote: 'Android Voting System', author: 'ziza' },
+            { quote: 'Artificial Intelligence Dietician', author: 'ziza' },
+            { quote: 'ATM Detail Security Using Image Steganography', author: 'ziza' },
+            { quote: 'Attack Source Tracing Project', author: 'ziza' },
+            { quote: 'Automated Attendance System', author: 'ziza' },
+            { quote: 'Automated Canteen Ordering System using Android', author: 'ziza' },
+            { quote: 'Automated College Timetable Generator', author: 'ziza' },
+            { quote: 'Automated Payroll With GPS Tracking And Image Capture', author: 'ziza' },
+            { quote: 'Automatic Answer Checker', author: 'ziza' },
+            { quote: 'Banking Bot Project', author: 'ziza' },
+            { quote: 'Basic things about network', author: 'ziza' },
+            { quote: 'Bikers Portal', author: 'ziza' },
+            { quote: 'Biomedical Data Mining For Web Page Relevance Checking', author: 'ziza' },
+            { quote: 'Brain Tumor Detection Using Image Segmentation', author: 'ziza' },
+            { quote: 'Bus Pass Android Project', author: 'ziza' },
+            { quote: 'Bus Pass with Barcode Card scan', author: 'ziza' },
+            { quote: 'Bus Pass with webcam Scan', author: 'ziza' },
+            { quote: 'Camera Motion Sensing Project', author: 'ziza' },
+            { quote: 'Cancer Prediction Using Data Mining', author: 'ziza' },
+            { quote: 'Canteen Automation System', author: 'ziza' },
+            { quote: 'Car Sales And Inventory Store Project', author: 'ziza' },
+            { quote: 'Car transportation system benefits', author: 'ziza' },
+            { quote: 'Card Payment Security Using RSA', author: 'ziza' },
+            { quote: 'Cargo Booking Software', author: 'ziza' },
+            { quote: 'Cedula Mobile App For Issuance Of Cedula', author: 'ziza' },
+            { quote: 'Class Management System Project', author: 'ziza' },
+            { quote: 'Cloud Based Bus Pass System', author: 'ziza' },
+            { quote: 'Cloud Based Career Guidance System', author: 'ziza' },
+            { quote: 'Cloud Based Local Train Ticketing System', author: 'ziza' },
+            { quote: 'Cloud Based Online Blood Bank System', author: 'ziza' },
+            { quote: 'Cloud computing for Rural banking', author: 'ziza' },
+            { quote: 'Cloud-Based Accounting App For Business Minded People', author: 'ziza' },
+            { quote: 'Coin Loading Machine', author: 'ziza' },
+            { quote: 'Collective Face Detection Project', author: 'ziza' },
+            { quote: 'College automation project', author: 'ziza' },
+            { quote: 'College Enquiry Chat Bot', author: 'ziza' },
+            { quote: 'College Forums with Alumni Based on Content Filtering', author: 'ziza' },
+            { quote: 'College Social Networking Web Project', author: 'ziza' },
+            { quote: 'Complex clinical data merging, management, and presentation', author: 'ziza' },
+            { quote: 'Computer Vision Information Systems for wireless surveillance', author: 'ziza' },
+            { quote: 'Converting The Sign Language Into Text With The Use Of Microsoft Kinect Sensor', author: 'ziza' },
+            { quote: 'Cooking Recipe Rating Based On Sentiment Analysis', author: 'ziza' },
+            { quote: 'Cooperative Housing Society Manager Project', author: 'ziza' },
+            { quote: 'Corporate Dashboard Project', author: 'ziza' },
+            { quote: 'Credit Card Fraud Detection', author: 'ziza' },
+            { quote: 'Crime Rate Prediction Using K Means', author: 'ziza' },
+            { quote: 'Criminal Investigation Tracker with Suspect Prediction', author: 'ziza' },
+            { quote: 'Cursor Movement By Hand Gesture Project', author: 'ziza' },
+            { quote: 'Cursor Movement On Object Motion', author: 'ziza' },
+            { quote: 'Custom Web Search With User Centric Map', author: 'ziza' },
+            { quote: 'Customer Behaviour Prediction Using Web Usage Mining', author: 'ziza' },
+            { quote: 'Data breach – how to prevent it', author: 'ziza' },
+            { quote: 'Data Duplication Removal Using File Checksum', author: 'ziza' },
+            { quote: 'Data mining benefits', author: 'ziza' },
+            { quote: 'Data Mining For Automated Personality Classification', author: 'ziza' },
+            { quote: 'Data mining pros and cons', author: 'ziza' },
+            { quote: 'Data mining: the latest', author: 'ziza' },
+            { quote: 'Data Protection Using Hand Gesture Recognition', author: 'ziza' },
+            { quote: 'Data security – ways to strengthen it', author: 'ziza' },
+            { quote: 'Data Standardization Using Hidden Markov Model', author: 'ziza' },
+            { quote: 'Data warehousing – what you need to know', author: 'ziza' },
+            { quote: 'Defect recognition system for quality control', author: 'ziza' },
+            { quote: 'Dental Caries Detection System', author: 'ziza' },
+            { quote: 'Detect Irregular moving objects and tracking based on color and shape in real-time', author: 'ziza' },
+            { quote: 'Detecting Data Leaks', author: 'ziza' },
+            { quote: 'Detecting E Banking Phishing Websites Using Associative Classification', author: 'ziza' },
+            { quote: 'Detecting Edges Using Image Processor', author: 'ziza' },
+            { quote: 'Detecting Fraud Apps Using Sentiment Analysis', author: 'ziza' },
+            { quote: 'Detecting Phishing Websites Using Machine Learning', author: 'ziza' },
+            { quote: 'Diabetic Retinopathy Detection From Retinal Images', author: 'ziza' },
+            { quote: 'Diagnostic Centre Client Coordination System', author: 'ziza' },
+            { quote: 'Differences of network administration in various institutions', author: 'ziza' },
+            { quote: 'Digital Notice Board To Be Displayed On The PC Monitor', author: 'ziza' },
+            { quote: 'Digital Watermarking Project', author: 'ziza' },
+            { quote: 'Distributed Dealership Network Analyzer and Sales Monitor', author: 'ziza' },
+            { quote: 'Document checker and Corrector Project', author: 'ziza' },
+            { quote: 'Document Sentiment Analysis Using Opinion Mining', author: 'ziza' },
+            { quote: 'Doorbell Notification Application Having SMS Support Using Android', author: 'ziza' },
+            { quote: 'Download accelerator', author: 'ziza' },
+            { quote: 'Driver Card With Qr Code Identification', author: 'ziza' },
+            { quote: 'E Authentication System Using QR Code & OTP', author: 'ziza' },
+            { quote: 'E Banking Log System', author: 'ziza' },
+            { quote: 'E Commerce Product Rating Based On Customer Review Mining', author: 'ziza' },
+            { quote: 'E Governance project', author: 'ziza' },
+            { quote: 'E Healthcare – Online Consultation And Medical Subscription', author: 'ziza' },
+            { quote: 'Ecommerce Storefront Application', author: 'ziza' },
+            { quote: 'E-commerce technologies and the use of different content management systems', author: 'ziza' },
+            { quote: 'E-commerce technologies tools', author: 'ziza' },
+            { quote: 'Editor system for notepad', author: 'ziza' },
+            { quote: 'Education Assignment Dashboard', author: 'ziza' },
+            { quote: 'Efficient Doctor Patient Portal', author: 'ziza' },
+            { quote: 'E-Learning Platform using Cloud Computing', author: 'ziza' },
+            { quote: 'E-learning system for company processes', author: 'ziza' },
+            { quote: 'E-Logistics For Warehouse Management', author: 'ziza' },
+            { quote: 'Employee attendance System By Qr Scan', author: 'ziza' },
+            { quote: 'Employee Hourly Attendance By Barcode Scan', author: 'ziza' },
+            { quote: 'Encryption & Decryption Using Deffie Hellman Algorithm', author: 'ziza' },
+            { quote: 'Engineering College Automation and Scheduling System', author: 'ziza' },
+            { quote: 'Enhanced Kmeans algorithm', author: 'ziza' },
+            { quote: 'Enhanced Library Management System', author: 'ziza' },
+            { quote: 'ERP System For Institutes', author: 'ziza' },
+            { quote: 'Evaluation of Academic Performance of Students with Fuzzy Logic', author: 'ziza' },
+            { quote: 'Event Calendar App For Mobile Use', author: 'ziza' },
+            { quote: 'Exam Cell Automation System', author: 'ziza' },
+            { quote: 'Expression Identification Using Image Processing', author: 'ziza' },
+            { quote: 'Face Recognition Attendance System', author: 'ziza' },
+            { quote: 'Facial Expression Recognition', author: 'ziza' },
+            { quote: 'Fake Product Review Monitoring And Removal For Genuine Online Product Reviews Using Opinion Mining' },
         ];
 
 
