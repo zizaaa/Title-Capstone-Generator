@@ -265,7 +265,6 @@ body {
     border-radius: 10px;
     background-color: var(--BACKGROUND-COLOR);
     box-shadow: 2px 2px 10px 5px rgba(18, 24, 107, 0.2);
-    transition: all .6s;
 }
 
 .quotes-container h3 {
