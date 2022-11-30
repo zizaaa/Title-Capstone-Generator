@@ -500,8 +500,8 @@
          };
 
          // timer
-         let timer = setInterval(addAnimate, 200);
-         setTimeout(removeAnimate, 3000);
+         let timer = setInterval(addAnimate, 1);
+         setTimeout(removeAnimate, 2000);
 
      });
 
